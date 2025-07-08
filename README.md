@@ -20,8 +20,12 @@ Este proyecto necesita Python 3 y algunas librerías que no son instaladas por d
 ## Cómo usar?
 Cloná o descargá el respositorio con los archivos.
 
-Podés crear un entrono virtual para instalar lo módulos o hacerlo directamente en tu espacio personal.
-Instalá los módulos mencionados en requirements.txt
+Creá tu entorno virtual e instalá los módulos necesarios. Para eso, en un terminal ejecuta:
+1) Ir a la carpeta: cd ruta\a\la\carpeta
+2) Crear el entorno con: python -m venv NombreDelEntornoVirtual
+3) Activarlo: NombreDelEntornoVirtual\Scripts\activate
+4) instalar los módulos: pip install -r requirements.txt
+Por último, cuando quieras desactivar el entorno virtual: deactivate
 
 Ejecutá agenda.py
 
